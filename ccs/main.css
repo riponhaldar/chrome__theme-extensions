@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0d0d0d;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+}
+
+button {
+  background: #262626;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container__from {
+  padding-top: 2rem;
+}
+
+.container__from .from-flex {
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__from .from-flex #name {
+  width: 400px;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background: #262626;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.container__from .from-flex #name::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #name:-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #name::-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #name::placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #link {
+  color: #fdfdfd;
+  width: 600px;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background: #262626;
+  border: none;
+  outline: none;
+}
+
+.container__from .from-flex #link::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #link:-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #link::-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__from .from-flex #link::placeholder {
+  text-align: center;
+}
+
+.date-time {
+  margin-top: 2rem;
+  float: right;
+}
+
+.date-time .day-container {
+  font-size: 1rem;
+  color: #b0bdae;
+}
+
+.date-time .time-container {
+  font-size: 3rem;
+  color: #6e6e6e;
+}
+
+.container__google-serch {
+  padding-top: 8rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__google-serch .google-from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__google-serch .google-from .google-input {
+  color: #f3f3f3;
+  width: 800px;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background: #262626;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.container__google-serch .google-from .google-input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.container__google-serch .google-from .google-input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__google-serch .google-from .google-input::-ms-input-placeholder {
+  text-align: center;
+}
+
+.container__google-serch .google-from .google-input::placeholder {
+  text-align: center;
+}
+
+.container__all-site {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.container__all-site #notes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container__all-site #notes .note {
+  background: #141414;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.container__all-site #notes .note a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #a200ff;
+}
+
+.container__all-site #notes .note .note-btn {
+  position: relative;
+  right: -40px;
+}
+
+.container__all-site #notes:hover .note-btn {
+  right: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=main.css.map */
