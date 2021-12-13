@@ -39,10 +39,10 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.style.fontSize = '2rem';
-    notesElm.style.color = 'rgb(156, 156, 156)';
+    notesElm.style.fontSize = '1rem';
+    notesElm.style.color = '#808080';
 
-    notesElm.innerHTML = `hey copy  url and paste  👆   click 🔥 Add site`;
+    notesElm.innerHTML = `volu`;
   }
 }
 showNotes();
@@ -63,7 +63,7 @@ const some_function = (inx) => {
     showNotes();
   };
 };
-var deletebtn = document.querySelectorAll('.note-btn');
+const deletebtn = document.querySelectorAll('.note-btn');
 deletebtn.forEach((delet, inx) => {
   delet.addEventListener('click', some_function(inx));
 });

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+$rockSalt: 'Rock Salt', cursive;
+
 * {
   margin: 0;
   padding: 0;
@@ -71,20 +74,6 @@ button {
     }
   }
 }
-//**********************************times
-.date-time {
-  // border: 1px solid red;
-  margin-top: 2rem;
-  float: right;
-  .day-container {
-    font-size: 1rem;
-    color: rgb(176, 189, 174);
-  }
-  .time-container {
-    font-size: 3rem;
-    color: rgb(110, 110, 110);
-  }
-}
 
 // ******************************** google serach
 .container__google-serch {
@@ -98,7 +87,7 @@ button {
     .google-input {
       color: rgb(243, 243, 243);
       width: 800px;
-      padding: 0.4rem;
+      padding: 0.5rem;
       font-size: 1.2rem;
       border-radius: 5px;
       background: #262626;
@@ -126,18 +115,19 @@ button {
       margin: 1rem;
       border-radius: 5px;
       text-align: center;
-
       display: flex;
-
       overflow: hidden;
       position: relative;
 
       a {
-        padding: 1rem;
+        padding: 0.5rem 0.8rem;
         text-decoration: none;
         font-size: 1.8rem;
-        color: rgb(162, 0, 255);
+        letter-spacing: 4px;
+        font-family: $rockSalt;
+        color: #a020f0;
       }
+
       .note-btn {
         position: relative;
         right: -40px;
